@@ -1,10 +1,8 @@
 
 package br.com.infox.telas;
 
-import java.sql.*;
-
 import br.com.infox.dal.ModuloConexao;
-
+import java.sql.*;
 import javax.swing.JOptionPane;
 
 public class TelaUsuario extends javax.swing.JInternalFrame {
