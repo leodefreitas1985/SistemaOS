@@ -5,6 +5,7 @@ import br.com.infox.dal.ModuloConexao;
 import java.sql.*;
 import javax.swing.JOptionPane;
 
+
 public class TelaUsuario extends javax.swing.JInternalFrame {
 
     Connection conexao = null;
@@ -154,6 +155,7 @@ public class TelaUsuario extends javax.swing.JInternalFrame {
     private void initComponents() {
 
         buttonGroup1 = new javax.swing.ButtonGroup();
+        buttonGroup2 = new javax.swing.ButtonGroup();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
@@ -392,6 +394,7 @@ public class TelaUsuario extends javax.swing.JInternalFrame {
     private javax.swing.JButton btnUsuRead;
     private javax.swing.JButton btnUsuUpdate;
     private javax.swing.ButtonGroup buttonGroup1;
+    private javax.swing.ButtonGroup buttonGroup2;
     private javax.swing.JComboBox<String> cboUsuPerfil;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
@@ -410,4 +413,5 @@ public class TelaUsuario extends javax.swing.JInternalFrame {
     private javax.swing.JTextField txtUsuSenha;
     // End of variables declaration//GEN-END:variables
 }
-//teste
+
+
